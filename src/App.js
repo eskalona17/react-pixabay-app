@@ -1,9 +1,14 @@
 import React from 'react';
-import './App.css';
+import Formulario from './components/Formulario'
 
 function App() {
   return (
-    <h1>Hola mundo</h1>
+    <div className="container">
+      <div className="jumbotron">
+        <p className="lead text-center">Buscador de imágenes</p>
+        <Formulario />
+      </div>
+    </div>
   );
 }
 
